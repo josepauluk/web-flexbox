@@ -13,7 +13,10 @@ body {
 }
 
 .header {
-  background: #000;
+  background: url(../imagenes/background.jpg);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
   display: flex;
   flex-flow: column nowrap;
 }
@@ -28,17 +31,14 @@ body {
 .logo {
   background-color: #ea5455;
   flex: 1 1 auto;
-  height: 30px;
 }
 .nav {
   background-color: #ea5455;
   flex: 5 1 auto;
-  height: 30px;
 }
 .social {
   background-color: #ea5455;
   flex: 1 1 auto;
-  height: 30px;
 }
 
 .texto-principal {
