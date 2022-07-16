@@ -1,5 +1,5 @@
 * {
-  margin: 10px;
+  margin: 0px;
   padding: 10px;
   /* para que las cajas no se desborden */
   box-sizing: border-box;
@@ -21,24 +21,52 @@ body {
   flex-flow: column nowrap;
 }
 
+a {
+  text-decoration: none;
+}
+
 .menu {
-  background: #2d4059;
+  background: rgba(0, 0, 0, 0.1);
   display: flex;
   flex-flow: row nowrap;
-  height: 100px;
+  height: 60px;
   align-items: center;
+  border-bottom: rgba(255, 255, 255, 0.5);
 }
 .logo {
-  background-color: #ea5455;
   flex: 1 1 auto;
+  font-size: 30px;
+}
+.logo a {
+  color: #fff;
+}
+.logo a:hover {
+  color: #343434;
 }
 .nav {
-  background-color: #ea5455;
   flex: 5 1 auto;
 }
+.nav a {
+  color: #fff;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 0 10px;
+  letter-spacing: 2px;
+}
+.nav a:hover {
+  color: #343434;
+}
 .social {
-  background-color: #ea5455;
   flex: 1 1 auto;
+  display: flex;
+}
+.social a {
+  color: #fff;
+  font-size: 18px;
+  padding: 0 5px;
+}
+.social a:hover {
+  color: #343434;
 }
 
 .texto-principal {
